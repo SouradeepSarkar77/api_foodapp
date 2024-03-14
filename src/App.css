@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.allfoods {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-image: url(https://images.pexels.com/photos/9616292/pexels-photo-9616292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.cards {
+  background-color: white;
+  
+  margin: 15px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(95, 17, 168);
+
+}
+
+.type {
+  color: rgb(95, 17, 168);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img {
+  border-radius: 12px;
+}
+
+.dtype {
+  color: darkgreen;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cal {
+  color: darkgreen;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 100,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+  font-size: 80px;
+  padding: 20px;
+
+}
+
+.header {
+  font-weight: bold;
+  font-size: 100px;
+  font-family: 'Comfortaa', cursive;
+  color: #44bd32;
+}
+
+.top-section {
+  padding: 40px;
+  
+}
+.rdetails{ 
+  border-bottom: 2px solid #4932bd;
+  border-left: 2px solid #4932bd;
+  border-right: 2px solid #4932bd;
+  /* border-radius: 12px; */
+}
+.descrip{ 
+  font-weight: bold;
+  color: white;
+  background-color:#4932bd;
+}
